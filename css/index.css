@@ -17,7 +17,7 @@ h5 a:active {
 h5 a:hover{
     background-color: #ffffff;
     border: none;
-    color: #9625AA;
+    color: #709044;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     display: inline-block;
@@ -46,10 +46,16 @@ h2{
 h3{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 42px;
-    color:#fd4500;
+    color:#BD452A;
     line-height: 40px;
     margin-bottom: -10px;
     text-align: center
+}
+h4{
+    font-family: 'Patua One', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color:#ffffff;
 }
 h5{
     font-family: 'Open Sans', sans-serif;
@@ -73,12 +79,35 @@ h6{
     opacity: 0.8;
     margin-top: 30px;
 }
+.text_title{
+    text-align: center;
+    margin-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gen_cont{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image_cont img{
+    margin-top: 30px;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-/* ***HEADER/HERO*** */
+/* ***HEADER*** */
 
 .header_cont{
     height: 90px;
-    background-color: #7e1111;
+    background-color: #67853F;
 }
 .header_cont h4{
     padding-top: 30px;
@@ -95,4 +124,196 @@ h6{
 }
 .header_links h5{
     display: inline;
+}
+
+/* ***SUBNAV*** */
+
+.sub_cont{
+    margin: 0 auto;
+    padding-top: 12px;
+    height: 60px;
+    background-color: #709044;
+}
+.nav-item h5{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.sub_cont.nav-link:nth-child(2){
+    padding-right: 50px;
+}
+.nav-item a:link,
+.nav-item a:visited,
+.nav-item a:active {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 14px;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+    background-color: #709044;
+    border: none;
+}
+
+/* ***HERO*** */
+
+.jumbotron{
+    background: linear-gradient(to bottom,  #709044 0%,#709044 71%,#ffffff 71%,#ffffff 100%);
+}
+.display-4{
+    text-align: center;
+}
+.hero_details{
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+    padding-bottom: 30px;
+}
+
+/* ***THE CHALLENGE*** */
+
+/* ***PROTO PERSONA*** */
+
+.col-8{
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.col-8 h5{
+    color: #709044;
+}
+.proto{
+    padding-bottom: 50px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F9F6F3;
+}
+.proto_peep{
+    margin-top: 50px;
+    padding: 50px 0px 40px 0px;
+    text-align: center;
+    background-color: #F9F6F3;
+}
+.proto_peep img{
+    padding-bottom: 20px;
+    width: 160px;
+}
+
+/* ***LIKE WISH IF*** */
+
+/* ***RESEARCH QUESTION*** */
+
+.research_question{
+    margin-top: 350px;
+    height: auto;
+}
+.res_left{
+    padding: 80px 30px 70px 30px;
+    background-color: #709044;
+    background-image: url(../images/researchMag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ui_left_bot{
+    padding: 80px 40px 40px 40px;
+}
+.ui_left_bot h5{
+    color: #F2EDE4;
+}
+.res_right{
+    padding: 80px 50px 70px 50px;
+    background-color: #F2EDE4;
+}
+.ui_num_cont{
+    padding-top: 40px;
+}
+.ui_num{
+    float: left;
+    padding-right: 20px;
+}
+.ui_txt{
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+/* ***RESEARCH TAKEAWAYS*** */
+
+.card-deck{
+    max-width: 80%;
+    margin-top: 30px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    outline-style: solid;
+    outline-color: #709044;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.card-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #709044;
+}
+
+/* ***PROB STATEMENT*** */
+
+/* ***STORYBOARD*** */
+
+/* ***SITE MAP*** */
+
+/* ***MID/HIGH FIDELITY*** */
+
+.midFid{
+    margin-top: 60px;
+    padding-top: 60px;
+    background-color: #709044;
+}
+.midFid2{
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: #709044;
+}
+.mid_image_first{
+    margin-right: 60px;
+}
+
+/* ***TAKEAWAYS*** */
+
+.take_cont_top{
+    margin-top: 60px;
+}
+.take_cont{
+    margin-top: 140px;
+}
+.take_title{
+    font-size: 32px;
+    text-align: center;
+    color: #709044;
+    margin-bottom: 20px;
+}
+.take_tag{
+    font-size: 15px;
+    font-style: italic;
+    color: #ffffff;
+    width: 100px;
+    margin-bottom: 0px;
+    padding: 5px 10px 5px 10px;
+    background-color: #A5A5A5;
 }

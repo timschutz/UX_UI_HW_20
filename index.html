@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Patua+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
     <title>Non Profit Website Redesign</title>
@@ -16,7 +17,7 @@
     <div class="header_cont">
       <h4>Tim Schutz</h4>
       <div class="header_links">
-        <img  class="menu_icon" src="assets/material-menu.svg" alt="menu icon">
+        <img  class="menu_icon" src="images/material-menu.svg" alt="menu icon">
         <h5><a href="mailto:timschutz@gmail.com">Contact</a></h5>
         <h5 class="header_h5"><a href="documents/TimSchutz_resume.pdf"  target="_blank">Resume</a></h5>
       </div>
@@ -26,15 +27,15 @@
     <!-- SUB NAV -->
 
 
-    <ul class="nav justify-content-center header_cont">
+    <ul class="nav justify-content-center sub_cont">
       <li class="nav-item">
-        <h5><a class="nav-link active" href="#">Research</a></h5>
+        <h5><a class="nav-link active" href="#research">Research</a></h5>
       </li>
       <li class="nav-item">
-        <h5><a class="nav-link" href="#">Mid Fidelity</a></h5>
+        <h5><a class="nav-link middle" href="#mid">Mid Fidelity</a></h5>
       </li>
       <li class="nav-item">
-        <h5><a class="nav-link" href="#">High Fidelity</a></h5>
+        <h5><a class="nav-link" href="#high">High Fidelity</a></h5>
       </li>
     </ul>
 
@@ -42,9 +43,9 @@
     <!-- HERO -->
 
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
+      <div class="container gen_cont">
         <h1 class="display-4">21 Roots Farms Website Redesign</h1>
-        <h6>UX Research: Tim Schutz, Brad Webster, Rachel Weelborg<br> UX Design: Tim Schutz, Brad Webster, Rachel Weelborg</h6>
+        <h6 class="hero_details">UX Research:<br>Tim Schutz, Brad Webster, Rachel Weelborg<br><br>UX Design:<br>Tim Schutz, Brad Webster, Rachel Weelborg</h6>
         <img src="images/heroImage.png" alt="hero image">
       </div>
     </div>
@@ -52,7 +53,7 @@
 
     <!-- THE CHALLENGE -->
 
-    <div class="container text_section">
+    <div class="container text_title">
       <div class="row">
         <div class="col"></div>
         <div class="col-5">
@@ -71,7 +72,7 @@
 
     <!-- PROTO PERSONA -->
 
-    <div class="container textIntro_section">
+    <div class="container text_title" id="research">
       <div class="row">
         <div class="col"></div>
         <div class="col-5">
@@ -87,10 +88,14 @@
         <div class="col"></div>
       </div>
     </div>
+    <div class="proto_peep">
+      <img src="images/protoPic.png" alt="proto persona image">
+      <h3><span style="color:#282828">Jonathan Jones</span></h3>
+    </div>
     <div class="container proto">
       <div class="row">
         <div class="col"></div>
-        <div class="col-5">
+        <div class="col-8">
           <h5><span style="font-weight:700">Behavioral Demographics</span></h5>
           <ul>
             <li>Detail-oriented</li>
@@ -111,7 +116,7 @@
       </div>
       <div class="row">
         <div class="col"></div>
-        <div class="col-5">
+        <div class="col-8">
           <h5><span style="font-weight:700">Goals & Objectives</span></h5>
           <ul>
             <li>A place for his son to thrive and learn</li>
@@ -127,7 +132,7 @@
       </div>
       <div class="row">
         <div class="col"></div>
-        <div class="col-5">
+        <div class="col-8">
           <h5><span style="font-weight:700">Pain Points & Potential Solutions</span></h5>
           <ul>
             <li>Their son requires a special diet</li>
@@ -144,7 +149,7 @@
 
     <!-- LIKE WISH IF -->
 
-    <div class="container textIntro_section">
+    <div class="container text_title">
       <div class="row">
         <div class="col"></div>
         <div class="col-5">
@@ -160,28 +165,22 @@
         <div class="col"></div>
       </div>
     </div>
-    <div class="container like_wish">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col-5">
-          <img src="images/likeWishIf.svg" alt="I like I wish What If image">
-        </div>
-        <div class="col"></div>
-      </div>
+    <div class="img-responsive image_cont">
+      <img src="images/likeWishIf.svg" alt="I like I wish What If image">
     </div>
 
     <!-- RESEARCH QUESTION -->
 
     <div class="container research_question">
       <div class="row justify-content-center">
-        <div class="col-4 ">
-          <h3><span style="color:white">User Research Plan</span></h3>
+        <div class="col-4 res_left">
+          <h3><span style="color:#ABDB68">User Research Plan</span></h3>
           <div class="ui_left_bot">
-            <h5 class="res_question"><span style="color:#A1B4D8">Research Question:</span></h5>
-            <h5><span style="color:white">Would users understand what 21 Roots Farms does? Would it be clear how they could get involved?</span></h5>
+            <h5 class="res_question"><span style="color:#ABDB68">Research Question:</span></h5>
+            <h5>Would users understand what 21 Roots Farms does? Would it be clear how they could get involved?</h5>
           </div> 
         </div>
-        <div class="col-4">
+        <div class="col-4 res_right">
           <div>
             <h5>We wanted to find out:</h5>
           </div>
@@ -203,52 +202,55 @@
 
     <!-- RESEARCH TAKEAWAYS -->
     
-    <div class="row">
-      <div class="col-sm-3">
-          <div class="card">
-            <img src="images/takeOne.svg" alt="takeaway one icon">
-              <div class="card-block">
-                  <h4 class="card-title">Accessibility and adaptibility</h4>
-                  <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
-          </div>
+    <div class="container text_title">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-5">
+          <h3>Research Takeaways</h3>
+        </div>
+        <div class="col"></div>
       </div>
-      <div class="col-sm-3">
-          <div class="card">
-            <img src="images/takeTwo.svg" alt="takeaway one icon">
-              <div class="card-block">
-                  <h4 class="card-title">Inclusion</h4>
-                  <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
-          </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-5">
+          <h6>Based on the feedback from the survey and speaking with the stakeholder, the following are our main takeaways:</h6>
+        </div>
+        <div class="col"></div>
       </div>
-      <div class="col-sm-3">
-          <div class="card">
-            <img src="images/takeThree.svg" alt="takeaway one icon">
-              <div class="card-block">
-                  <h4 class="card-title">Sensory activities very effective</h4>
-                  <!-- <p class="card-text">This card has supporting text below as a natural lead-in. 
-                   Aliquam codeply mauris arcu, tristique a lobortis vitae, condimentum feugiat justo.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
+    </div>
+    <div class="col d-flex justify-content-center">
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/takeOne.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Accessibility and adaptibility</h5>
           </div>
-      </div>
-      <div class="col-sm-3">
-          <div class="card">
-            <img src="images/takeFour.svg" alt="takeaway one icon">
-              <div class="card-block">
-                  <h4 class="card-title">Hands-on instruction</h4>
-                  <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-              </div>
+        </div>
+        <div class="card">
+          <img src="images/takeTwo.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Inclusion</h5>
           </div>
+        </div>
+        <div class="card">
+          <img src="images/takeThree.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sensory activities very effective</h5>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/takeFour.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hands-on instruction</h5>
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
 
     <!-- PROB STATEMENT -->
 
-    <div class="container textIntro_section">
+    <div class="container text_title">
       <div class="row">
         <div class="col"></div>
         <div class="col-5">
@@ -267,7 +269,7 @@
 
     <!-- STORYBOARD -->
 
-    <div class="container textIntro_section">
+    <div class="container text_title">
       <div class="row">
         <div class="col"></div>
         <div class="col-5">
@@ -283,19 +285,13 @@
         <div class="col"></div>
       </div>
     </div>
-    <div class="container like_wish">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col-5">
-          <img src="images/storyBoard.jpg" alt="storyboard image">
-        </div>
-        <div class="col"></div>
-      </div>
+    <div class="img-responsive image_cont">
+      <img src="images/storyBoard.jpg" alt="storyboard image">
     </div>
 
     <!-- SITE MAP -->
 
-    <div class="container textIntro_section">
+    <div class="container text_title">
       <div class="row">
         <div class="col"></div>
         <div class="col-5">
@@ -311,19 +307,13 @@
         <div class="col"></div>
       </div>
     </div>
-    <div class="container like_wish">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col-5">
-          <img src="images/siteMap.svg" alt="site map image">
-        </div>
-        <div class="col"></div>
-      </div>
+    <div class="img-responsive image_cont">
+      <img src="images/siteMap.svg" alt="site map image">
     </div>
 
     <!-- MID FIDELITY -->
 
-    <div class="container textIntro_section">
+    <div class="container text_title"  id="mid">
       <div class="row">
         <div class="col"></div>
         <div class="col-5">
@@ -339,27 +329,31 @@
         <div class="col"></div>
       </div>
     </div>
-    <div class="container midFid">
-      <div class="row">
-        <div class="col">
-          <img src="images/mid1.jpg" alt="mid fidelity image">
-        </div>
-        <div class="col">
-          <img src="images/mid2.jpg" alt="mid fidelity image">
-        </div>
-        <div class="w-100"></div>
-        <div class="col">
-          <img src="images/mid3.jpg" alt="mid fidelity image">
-        </div>
-        <div class="col">
-          <img src="images/mid4.jpg" alt="mid fidelity image">
-        </div>
+
+    <div class="d-flex justify-content-center midFid">
+      <div class="mid_image mid_image_first">
+        <h5><span style="color:#ABDB68">Homepage</span></h5>
+        <img src="images/mid1.jpg" alt="mid fidelity image">
+      </div>
+      <div>
+        <h5><span style="color:#ABDB68">Volunteer</span></h5>
+        <img src="images/mid2.jpg" alt="mid fidelity image">
+      </div>
+    </div>
+    <div class="d-flex justify-content-center midFid2">
+      <div class="mid_image mid_image_first">
+        <h5><span style="color:#ABDB68">Donate</span></h5>
+        <img src="images/mid3.jpg" alt="mid fidelity image">
+      </div>
+      <div class="mid_image">
+        <h5><span style="color:#ABDB68">Summer 2021</span></h5>
+        <img src="images/mid4.jpg" alt="mid fidelity image">
       </div>
     </div>
 
     <!-- STYLE GUIDE -->
 
-    <div class="container textIntro_section">
+    <div class="container text_title">
       <div class="row">
         <div class="col"></div>
         <div class="col-5">
@@ -375,55 +369,53 @@
         <div class="col"></div>
       </div>
     </div>
-    <div class="container like_wish">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col-5">
-          <img src="images/styleGuide.jpg" alt="style guide image">
-        </div>
-        <div class="col"></div>
-      </div>
+    <div class="img-responsive image_cont">
+      <img src="images/styleGuide.jpg" alt="style guide image">
     </div>
 
     <!-- HIGH FIDELITY -->
 
-    <div class="container textIntro_section">
+    <div class="container text_title"  id="high">
       <div class="row">
         <div class="col"></div>
         <div class="col-5">
-          <h3>Mid Fidelity Prototypes</h3>
+          <h3>High Fidelity Prototypes</h3>
         </div>
         <div class="col"></div>
       </div>
       <div class="row">
         <div class="col"></div>
         <div class="col-5">
-          <h6>We created our wireframes after laying out our site map with the goal of creating an easy to navigate website with clearly delineated information.</h6>
+          <h6>We took the information from our usability testing and, combined with our style guide, applied it to a high fidelity prototype.</h6>
         </div>
         <div class="col"></div>
       </div>
     </div>
-    <div class="container midFid">
-      <div class="row">
-        <div class="col">
-          <img src="images/high1.jpg" alt="high fidelity image">
-        </div>
-        <div class="col">
-          <img src="images/high2.jpg" alt="high fidelity image">
-        </div>
-        <div class="w-100"></div>
-        <div class="col">
-          <img src="images/high3.jpg" alt="high fidelity image">
-        </div>
-        <div class="col">
-          <img src="images/high4.jpg" alt="high fidelity image">
-        </div>
+
+    <div class="d-flex justify-content-center midFid">
+      <div class="mid_image mid_image_first">
+        <h5><span style="color:#ABDB68">Homepage</span></h5>
+        <img src="images/high1.jpg" alt="high fidelity image">
+      </div>
+      <div class="mid_image">
+        <h5><span style="color:#ABDB68">Volunteer</span></h5>
+        <img src="images/high2.jpg" alt="high fidelity image">
+      </div>
+    </div>
+    <div class="d-flex justify-content-center midFid2">
+      <div class="mid_image mid_image_first">
+        <h5><span style="color:#ABDB68">Donate</span></h5>
+        <img src="images/high3.jpg" alt="high fidelity image">
+      </div>
+      <div class="mid_image">
+        <h5><span style="color:#ABDB68">Summer 2021</span></h5>
+        <img src="images/high4.jpg" alt="high fidelity image">
       </div>
     </div>
 
     <!-- TAKEAWAYS -->
 
-    <div class="container textIntro_section">
+    <div class="container text_title">
       <div class="row">
         <div class="col"></div>
         <div class="col-5">
@@ -432,65 +424,53 @@
         <div class="col"></div>
       </div>
     </div>
-    <div class="container like_wish">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col-5">
-          <h5>Mission up front</h5>
-          <h3>Existing Site</h3>
-          <img src="images/finTake01.jpg" alt="takeaway image">
-        </div>
-        <div class="col"></div>
+
+    <div class="d-flex justify-content-center take_cont_top">
+      <div class="take">
+        <h5 class="take_title">Mission up front</h5>
+        <h5 class="take_tag">Existing Site</h5>
+        <img src="images/finTake01.jpg" alt="takeaway image">
       </div>
     </div>
-    <div class="container like_wish">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col-5">
-          <h5>Evoke Safety, Growth and Farm Values</h5>
-          <h3>Existing Site</h3>
-          <img src="images/finTake02.jpg" alt="takeaway image">
-        </div>
-        <div class="col"></div>
+
+    <div class="d-flex justify-content-center take_cont">
+      <div class="take">
+        <h5 class="take_title">Evoke Safety, Growth and Farm Values</h5>
+        <h5 class="take_tag">Existing Site</h5>
+        <img src="images/finTake02.jpg" alt="takeaway image">
       </div>
     </div>
-    <div class="container like_wish">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col-5">
-          <h5>Photos tell the story</h5>
-          <h3>Existing Site</h3>
-          <img src="images/finTake03.jpg" alt="takeaway image">
-        </div>
-        <div class="col"></div>
+
+    <div class="d-flex justify-content-center take_cont">
+      <div class="take">
+        <h5 class="take_title">Photos tell the story</h5>
+        <h5 class="take_tag">Existing Site</h5>
+        <img src="images/finTake03.jpg" alt="takeaway image">
       </div>
     </div>
-    <div class="container like_wish">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col-5">
-          <h5>Colors Reflect Warmth and Vibe of the Farm</h5>
-          <h3>Existing Site</h3>
-          <img src="images/finTake04.jpg" alt="takeaway image">
-        </div>
-        <div class="col"></div>
+
+    <div class="d-flex justify-content-center take_cont">
+      <div class="take">
+        <h5 class="take_title">Colors Reflect Warmth and Vibe of the Farm</h5>
+        <h5 class="take_tag">Existing Site</h5>
+        <img src="images/finTake04.jpg" alt="takeaway image">
       </div>
     </div>
-    <div class="container like_wish">
-      <div class="row">
-        <div class="col"></div>
-        <div class="col-5">
-          <h5>Clear Navigation and Calls to Action</h5>
-          <h3>Existing Site</h3>
-          <img src="images/finTake05.jpg" alt="takeaway image">
-        </div>
-        <div class="col"></div>
+
+    <div class="d-flex justify-content-center take_cont">
+      <div class="take">
+        <h5 class="take_title">Clear Navigation and Calls to Action</h5>
+        <h5 class="take_tag">Existing Site</h5>
+        <img src="images/finTake05.jpg" alt="takeaway image">
       </div>
     </div>
 
 
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
