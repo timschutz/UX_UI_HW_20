@@ -80,6 +80,7 @@ h6{
     margin-top: 30px;
 }
 .text_title{
+    max-width: 60%;
     text-align: center;
     margin-top: 350px;
     margin-left: auto;
@@ -105,14 +106,29 @@ h6{
 
 /* ***HEADER*** */
 
+.stick{
+    position: fixed;
+    z-index: 10;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
 .header_cont{
     height: 90px;
     background-color: #67853F;
+}
+.header_cont ul{
+    padding-top: 90px;
 }
 .header_cont h4{
     padding-top: 30px;
     padding-left: 50px;
     float: left;
+}
+.header_cont a{
+    text-decoration: none;
+    color:#ffffff;
 }
 .header_links{
     padding-top: 26px;
@@ -160,7 +176,7 @@ h6{
 
 /* ***HERO*** */
 
-.jumbotron{
+.jumbo_hero{
     background: linear-gradient(to bottom,  #709044 0%,#709044 71%,#ffffff 71%,#ffffff 100%);
 }
 .display-4{
@@ -172,6 +188,9 @@ h6{
     opacity: 0.8;
     padding-bottom: 30px;
 }
+.hero_image{
+    max-width: 80%;
+}
 
 /* ***THE CHALLENGE*** */
 
@@ -180,7 +199,7 @@ h6{
 .col-8{
     width: 600px;
     margin-top: 30px;
-    margin-left: 70px;
+    margin-left: 90px;
 }
 .col-8 h5{
     color: #709044;
@@ -214,7 +233,12 @@ h6{
     margin-top: 350px;
     height: auto;
 }
+.research_question2{
+    margin-top: 20px;
+    height: auto;
+}
 .res_left{
+    width: 530px;
     padding: 80px 30px 70px 30px;
     background-color: #709044;
     background-image: url(../images/researchMag.png);
@@ -290,16 +314,20 @@ h6{
     padding-top: 60px;
     background-color: #709044;
 }
-.mid_image_first{
-    margin-right: 60px;
+.mid_second{
+    margin-top: 60px;
 }
+
+/* ***STYLE GUIDE*** */
 
 /* ***TAKEAWAYS*** */
 
 .take_cont_top{
+    max-width: 100%;
     margin-top: 60px;
 }
 .take_cont{
+    max-width: 100%;
     margin-top: 140px;
 }
 .take_title{
@@ -314,6 +342,59 @@ h6{
     color: #ffffff;
     width: 100px;
     margin-bottom: 0px;
+    margin-left: 15px;
     padding: 5px 10px 5px 10px;
     background-color: #A5A5A5;
+}
+
+/* ***MEDIA QUERIES*** */
+
+/* ***MAX 1250*** */
+
+@media only screen and (max-width: 1250px) {
+    
+}
+
+/* ***MAX 1024*** */
+
+
+@media only screen and (max-width: 1024px) {
+    .image_cont img{
+        max-width: 80%;
+    }
+}
+
+/* ***MAX 768*** */
+
+@media only screen and (max-width: 768px) {
+    .col-8{
+        margin-left: 50px;
+    }
+}
+
+/* ***MAX 480*** */
+
+@media only screen and (max-width: 480px) {
+    .sub_cont{
+        display: none;
+    }
+    .header_links h5{
+        display: none;
+    }
+    .menu_icon{
+        margin-top: 14px;
+        display: block;
+    }
+    .hero_image{
+        max-width: 100%;
+    }
+    .image_cont img{
+        max-width: 90%;
+    }
+    .text_title{
+        max-width: 100%;
+    }
+    .col-8{
+        margin-left: 0px;
+    }
 }
